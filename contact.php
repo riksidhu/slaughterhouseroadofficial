@@ -5,7 +5,7 @@ $mobile   = $_REQUEST["mobile"];
 $msg   = $_REQUEST["msg"];
 $to    = "surjithctly@gmail.com";
 if (isset($email) && isset($name) && isset($msg)) {
-    $subject = "$name sent you a message via Slaughter House Road";
+    $subject = "$name sent you a message via Slaughterhouse Road";
 		$headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
 $headers .= "From: ".$name." <".$email.">\r\n"."Reply-To: ".$email."\r\n" ;
